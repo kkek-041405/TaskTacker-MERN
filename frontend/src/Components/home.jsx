@@ -11,7 +11,7 @@ function Home({ stats, onGoToDashboard }) {
           </div>
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">Task Tracker</h1>
           <p className="mt-2 text-slate-600">
-            A simple task management board. Your data is stored locally in your browser.
+            A simple task management board. Happy Tasking!
           </p>
         </div>
 
