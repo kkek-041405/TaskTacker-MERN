@@ -28,7 +28,7 @@ function App() {
 
     getAllTasks()
     
-  }, [updateTask, deleteTask, createTask, tasks,filter, searchTerm])
+  }, [filter, searchTerm])
 
   const visibleTasks = useMemo(() => {
     return tasks.filter((task) => {
